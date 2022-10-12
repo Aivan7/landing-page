@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  min-width: 900px;
+  background-color: var(--bg-color);
+
+}
+
+.header>img {
+  max-width: 200px;
+  margin-left: 10px;
+  margin-right: 400px;
+}
+
+.navigation__item {
+  background-color: var(--bg-color);
+  width: 35vw;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.navigation__item>li {
+  margin-left: 10px;
+}

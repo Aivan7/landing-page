@@ -1,0 +1,121 @@
+.delicious-coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.form-email__item {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.form-email__item-button {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: var(--bg-color-btn);
+}
+
+.form-email__item-button:hover {
+    background-color: var(--bg-color-btn-hover);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+
+}
+
+.about-us__item {
+    display: flex;
+}
+
+.about-us__item-img {
+    max-width: 80px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+.about-us__item-text {
+    max-width: 85vh;
+}
+
+.how-to-drink-coffee {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 7vh;
+    margin-right: 7vh;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 350px;
+    margin-left: 20px;
+    min-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    min-height: 60px;
+    background-color: var(--bg-color-card-footer);
+}
+
+.card__price {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.card>ul {
+    margin-bottom: 30px;
+}
+
+.card>ul>li {
+    font-size: 20px;
+    margin-top: 5px;
+}
